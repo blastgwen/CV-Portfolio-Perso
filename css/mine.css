@@ -1,8 +1,30 @@
 .contain {
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: auto;
 }
 
 #photoPerso {
 	padding-left: 50px;
+}
+
+.homepage {
+	background: #B1B1B1;
+}
+
+.homepage .span4 {
+	padding: 10;
+}
+
+.homepage h1 a:link,
+.homepage h1 a:visited,
+.homepage h1 a:active {
+	color: #333333
+}
+
+.homepage h1 a:hover{
+	color: darkcyan;
+}
+
+.homepage h1 {
+	text-align: center;
 }
