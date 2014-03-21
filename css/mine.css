@@ -8,7 +8,7 @@
 }
 
 .homepage {
-	background: #B1B1B1;
+	background: #CCCCCC;
 }
 
 .homepage .span4 {
@@ -27,4 +27,52 @@
 
 .homepage h1 {
 	text-align: center;
+}
+
+.contenuPage {
+	background: #444444;
+	margin-top:-10px;
+	padding-top: 20px;
+}
+
+.contenuPage .contenu{
+	background: #CCCCCC;
+	margin: 10 40 20 40;
+}
+
+.contenu h1{
+	background: darkcyan;
+	color: #333333;
+	width: 100%;
+	text-align: center
+}
+
+.school {
+	width: 100%;
+	padding: 10 0 20 0;
+}
+
+.schoolName {
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-left: 100px;
+}
+.school p{
+	padding-left: 15;
+}
+.img-school {
+	padding: 0 20 10 15;
+}
+
+.schoolBorder {
+	border-bottom:solid 2px darkcyan;
+	text-align: center;
+	margin-bottom: -10px;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.hobbies p{
+	
 }
