@@ -31,8 +31,15 @@
 
 .contenuPage {
 	background: #444444;
-	margin-top:-10px;
 	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* 
+	QUI SUIS JE
+ */
+#Qui {
+	margin-top:-10px;
 }
 
 .contenuPage .contenu{
@@ -40,12 +47,15 @@
 	margin: 10 40 20 40;
 }
 
-.contenu h1{
+.contenu h1,
+.contenuCV h1{
 	background: darkcyan;
 	color: #333333;
 	width: 100%;
-	text-align: center
+	text-align: center;
+	margin: 0;
 }
+
 
 .school {
 	width: 100%;
@@ -73,6 +83,40 @@
 	margin-left: 10%;
 }
 
-.hobbies p{
-	
+.hobbies ul{
+	padding-left: 50px;
 }
+.hobbies li {
+	padding-bottom: 5px;
+}
+
+/* 
+	CV
+ */
+.contenuPage .contenuCV{
+	background: #CCCCCC;
+}
+
+.span4 .contenuCV h1{
+	font-size: 23px;
+}
+
+
+.CVFixe p{
+	padding-right: 10;
+}
+
+.contenuPage .span4 {
+	padding-right: 10px;
+	padding-left: 5px;
+	margin-left: -5px;
+}
+
+.contenuPage .span8 {
+	margin-right: 15px;
+}
+
+#expPro {
+	margin-left: 10;
+}
+
