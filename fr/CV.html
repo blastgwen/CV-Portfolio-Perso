@@ -1,6 +1,6 @@
-<html>
+<hmtl>
 <head>
-	<title>Qui suis-je ? - Gwena&euml;l Bec</title>
+	<title>CV - Gwena&euml;l Bec</title>
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/mine.css">
@@ -12,59 +12,174 @@
 		<div class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="navbar-inner">
 		    <div class="container">
-		      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
 		      <a class="brand" href="./index.html">Bec Gwena&euml;l</a>
 		      <div class="nav-collapse collapse">
 		        <ul class="nav">
 		          <li><a href="./Qui-suis-je.html">Qui suis-je ?</a></li>
-		          <li><a href="./CV.html">CV</a></li>
+		          <li class="active"><a href="./CV.html">CV</a></li>
 		          <li><a href="./Projets.html">Projets</a></li>
 		          <li><a href="./Contact.html">Contact</a></li>
 		        </ul>
+		        <span class="pull-right language-icon" style="padding-top:9">
+		        	<a href="../en/Resume.html" style="padding-right:20">
+		        		<img src="../images/drapeau_uk_mini.png">
+		        	</a>
+		        	<a href="../fr/CV.html">
+		        		<img src="../images/drapeau_france_mini.png">
+		        	</a>
+		        </span>
 		      </div><!--/.nav-collapse -->
 		    </div>
 		  </div>
 		</div>
 
-		<div class="contenuPage row-fluid">
-			<div id="expPro" class="contenuCV span8">
-				<h1> Exp&eacute;riences professionnelles </h1>
+		<div class="Page">
+			<!-- Presentation -->
+			<div id="infoPerso" class="hero-unit">
+				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
 
-				
+				<div>
+					<h1> Gwena&euml;l Bec </h1>
+					<p> Je suis un &eacute;tudiant en ing&eacute;nieurie logicielle de l'&Eacute;cole des Mines de Nantes, jeune passion&eacute; par les nouvelles technologies et le sport en g&eacute;n&eacute;ral. </p>
+				</div>
 			</div>
 
-			<div class="span4">
-				<div class="contenuCV CVFixe">
-					<h1> T&eacute;l&eacute;chargements </h1>
-					<a href="../docs/CV-BecGwenael-Francais.pdf">
-						<p>
-							<img src="../images/download-FR.png" /> 
-							T&eacute;l&eacute;charger le CV en Fran&ccedil;ais
-						</p>
-					</a>
-					<a href="../docs/-BecGwenael-English.pdf">
-						<p>
-							<img src="../images/download-EN.png" /> 
-							T&eacute;l&eacute;charger le CV en Anglais
-						</p>
-					</a>
+			<div class="contenuPage row-fluid">
+				<div id="expPro" class="contenuCV span8">
+					<h1 style="padding-right:10px;"> Exp&eacute;riences professionnelles </h1>
+					<div class="experience">
+						<h2> D&eacute;veloppeur chez Sopra 
+							<span class="pull-right CV-date"> 2012 - 2015 								
+							</span>
+						</h2>
+						<p> Alternant chez Sopra, j'ai &eacute;t&eacute; int&eacute;gr&eacute; &agrave; plusieurs &eacute;quipes au cours de ma formation et j'ai travaill&eacute; sur plusieurs projet </p>
+
+						<div class="panel-group" id="accordion-sopra">
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <div class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion-sopra" href="#collapseCNAM">
+									<h3 class="mission-title"> Hippocrate - CNAM 
+										<span class="pull-right" style="padding: 0 10; margin:10 0">
+											<i class="icon-arrow-down"></i>
+										</span>
+										<span class="pull-right CV-date" style="padding-right: 10"> Mars 2014 - Maintenant </span>
+									</h3>										
+						        </a>
+						      </div>
+						    </div>
+						    <div id="collapseCNAM" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul class="Mission">
+										<li>Migration de l'application de VB6 &agrave; VB.Net</li>
+										<li>D&eacute;veloppement d'&eacute;volutions pour l'applications incluant modification d'IHM, de services et de BDD</li>
+									</ul>
+									<h5>Technologies</h5>
+									<p class="Techno"> VB.Net, Tuxedo, Oracle Database, VS 2010 et 2013 </p>
+								</div>
+						    </div>
+						  </div>
+						  <div class="panel panel-default">
+						    <div class="panel-heading">
+						      <div class="panel-title">
+						        <a data-toggle="collapse" data-parent="#accordion-sopra" href="#collapseOGC">
+									<h3 class="mission-title"> Projet interne - OGC 
+										<span class="pull-right" style="padding: 0 10; margin:10 0">
+											<i class="icon-arrow-down"></i>
+										</span>
+										<span class="pull-right CV-date" style="padding-right: 10"> Octobre 2012 - Mars 2014 </span>
+									</h3>					
+						        </a>
+						      </div>
+						    </div>
+						    <div id="collapseOGC" class="panel-collapse collapse">
+								<div class="panel-body">
+									<ul class="Mission">
+										<li>D&eacute;veloppement d'&eacute;volutions pour l'applications incluant confection d'IHM, cr&eacute;ation de services et migration de BDD </li>
+										<li>R&eacute;daction de documents de sp&eacute;cifications</li>
+										<li>Test fonctionnel de l'application </li>							
+										<li>R&eacute;daction de guides techniques et guide utilisateur</li>
+									</ul>
+									<h5>Technologies</h5>
+									<p class="Techno"> C#, Silverlight, XAML, SQL Server, VS 2008, UML </p>
+								</div>
+						    </div>
+						  </div>
+						</div>
+						<p class="CVBorder"/>
+					</div>
+					<div class="experience">
+						<h2> WebDeveloper - ESAM 1formatique 
+							<span class="pull-right CV-date"> 2012 </span>
+						</h2>
+						<p> Stagiaire chez ESAM 1formatique dont le sujet &eacute;tait de cr&eacute;er un nouveau site web pour l'entreprise en utilisant le CMS Joomla!</p>
+						<div class="panel-group" id="accordion-esam">
+						  	<div class="panel panel-default">
+							    <div class="panel-heading">
+							      	<div class="panel-title">
+								        <a data-toggle="collapse" data-parent="#accordion-esam" href="#collapseEsam">
+											<h3 class="mission-title"> D&eacute;veloppement du site web
+												<span class="pull-right" style="padding: 0 10; margin:10 0">
+											<i class="icon-arrow-down"></i>
+										</span>
+										<span class="pull-right CV-date" style="padding-right: 10"> Avril 2012 - Juin 2012 </span>
+											</h3>
+										</a>
+									</div>
+								</div>
+								<div id="collapseEsam" class="panel-collapse collapse">
+									<div class="panel-body">
+										<ul class="Mission">
+											<li>Migration des donn&eacute;es et des pages existentes </li>
+											<li>Conception du nouveau design</li>
+										</ul>
+										<h5>Technologies</h5>
+										<p class="Techno"> Joomla!, HTML, CSS, JavaScript </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
 				</div>
-				<div class="contenuCV CVFixe">
-					<h1> Comp&eacute;tences techniques </h1>
-					<ul>
-						<li><b>Programmation : </b> Java, JavaEE, C#, VB.NET, Silverlight</li>
-						<li><b>Base de donn&eacute;es : </b> SQL, Oracle, MySQL</li>
-						<li><b>Mod&eacute;lisation / M&eacute;thodologie: </b> UML, M&eacute;thodes Agiles</li>
-						<li><b>Notions : </b> Scala, Play!, Haskell, JavaScript, ASP .Net, C++, Spring, PHP, Merise</li>
-					</ul>
+
+				<div class="span3">
+					<div class="affix">
+						<div class="contenuCV CVFixe">
+							<h1> Comp&eacute;tences techniques </h1>
+							<ul>
+								<li><b>Programmation : </b> Java, JavaEE, C#, VB.NET, Silverlight</li>
+								<li><b>Base de donn&eacute;es : </b> SQL, Oracle, MySQL</li>
+								<li><b>Mod&eacute;lisation / M&eacute;thodologie: </b> UML, M&eacute;thodes Agiles</li>
+								<li><b>Notions : </b> Scala, Play!, Haskell, JavaScript, ASP .Net, C++, Spring, PHP, Merise</li>
+							</ul>
+						</div>
+						<div class="contenuCV CVFixe">
+							<h1> T&eacute;l&eacute;chargements </h1>
+							<a href="../docs/CV-BecGwenael-Francais.pdf">
+								<p>
+									<img src="../images/download-FR.png" /> 
+									T&eacute;l&eacute;charger le CV en Fran&ccedil;ais
+								</p>
+							</a>
+							<a href="../docs/CV-BecGwenael-English.pdf">
+								<p>
+									<img src="../images/download-EN.png" /> 
+									T&eacute;l&eacute;charger le CV en Anglais
+								</p>
+							</a>
+						</div>
+					</div>					
 				</div>
-				
 			</div>
+			<!-- Bas de page -->
+			<div class="modal-footer">
+		        <p class="muted credit">R&eacute;alis&eacute; par Bec Gwena&euml;l avec <a href="http://getbootstrap.com/">Bootstrap Twitter</a> - @Copyright 2014</p>
+	    	</div>
 		</div>
 	</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

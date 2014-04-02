@@ -12,79 +12,87 @@
 		<div class="navbar navbar-inverse navbar-fixed-top">
 		  <div class="navbar-inner">
 		    <div class="container">
-		      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
 		      <a class="brand" href="./index.html">Bec Gwena&euml;l</a>
 		      <div class="nav-collapse collapse">
 		        <ul class="nav">
-		          <li><a href="./About-me.html" selected>About me</a></li>
+		          <li class="active"><a href="./About-me.html" selected>About me</a></li>
 		          <li><a href="./Resume.hmtl">Resume</a></li>
 		          <li><a href="./Projects.html">Projects</a></li>
 		          <li><a href="./Contact.html">Contact</a></li>
 		        </ul>
+		        <span class="pull-right language-icon" style="padding-top:9">
+		        	<a href="../en/About-me.html" style="padding-right:20">
+		        		<img src="../images/drapeau_uk_mini.png">
+		        	</a>
+		        	<a href="../fr/Qui-suis-je.html">
+		        		<img src="../images/drapeau_france_mini.png">
+		        	</a>
+		        </span>
 		      </div><!--/.nav-collapse -->
 		    </div>
 		  </div>
 		</div>
 
-		<!-- Presentation -->
-		<div id="infoPerso" class="hero-unit">
-			<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
+		<div class="Page">
+			<!-- Presentation -->
+			<div id="infoPerso" class="hero-unit">
+				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
 
-			<div>
-				<h1> Gwena&euml;l Bec </h1>
-				<p> I am a student in Software Engineering of the Ecole des Mines de Nantes (a highly selective school), young passionate about new technologies and sports in general.</p>
+				<div>
+					<h1> Gwena&euml;l Bec </h1>
+					<p> I am a student in Software Engineering of the Ecole des Mines de Nantes (a highly selective school), young passionate about new technologies and sports in general.</p>
+				</div>
 			</div>
+
+			<div id="Qui" class="contenuPage">
+				<!-- Parcours scolaires-->
+				<div class="contenu">
+					<h1> Education </h1>
+					<div class="school">
+						<img class="pull-right img-school" src="../images/EMN.png"> 
+
+						<p><a class="schoolName" href="http://www.mines-nantes.fr/" target="_blank">&Eacute;cole des Mines de Nantes <i> - Engineering School </i></a></p>
+						<p> <b> Presentation : </b> The "&Eacute;cole des Mines de Nantes" is a great school of the Institute "Mines-T&eacute;l&eacute;com" engineers to form general trend of high level. The Ecole des Mines de Nantes has four characteristics that define: general training, a strong orientation towards business, international openness and marked use of innovative teaching methods</p>
+						<p> <b> Course : </b> Training I'm following in this school is an apprenticeship (<i> 50% of time at school and 50% in business </i>). This training is specialized in software engineering and management. Specifically we learn to use new technologies (JEE, Scala, Play! ...) while having a good background in management </p>
+						<p> <b> Result : Training in progress</b> </p>
+						<p class="schoolBorder"/>
+					</div>	
+
+					<div class="school">
+						<img class="pull-right img-school" src="../images/IUT.png"> 
+
+						<p><a class="schoolName" href="http://www.iut-larochelle.fr/" target="_blank">IUT de La Rochelle - <i> HND </i></a></p>
+						<p> <b> Presentation : </b> The IT department of the IUT of La Rochelle was created in 1982. In 1989, during the implementation of school options, the IT department of La Rochelle had a leading role in the creation of content special subject Industrial Systems and Computer Engineering. </p>
+						<p> <b> Course : </b> I followed the course "IT" from the IUT. This training is a fairly technical (<i> the aim of being able to work in business at the end of it </i>) and I chose the second year the special subject "software engineering". This subject is more for people who want to continue their studies in engineering school.</p>
+						<p> <b> Result : DUT in IT subjet Software Engineering <i> - Equivalent to HND </i></b> </p>
+						<p class="schoolBorder"/>
+					</div>	
+
+					<div class="school">
+						<p><a class="schoolName" href="http://www.lyceejeanmonnet-cognac.fr/" target="_blank">Lyc&eacute;e Jan Monnet de Cognac <i> - High School </i></a></p>
+						<p> <b> Presentation : </b>High school of Cognac </p>
+						<p> <b> Course : </b>I've done a Bac S-SVT avec with Option Physique </p>
+						<p> <b> Result : </b>BAC S-SVT Subject Physics with Honors <i> equivalent to A-level </i> </p>
+					</div>	
+				</div>
+
+
+				<!-- Hobbies -->
+				<div class="contenu hobbies">
+					<h1> Hobbies </h1>
+					<ul>
+						<li>TV Shows addict</li>
+						<li>Sport  - Practised Aikido while 11years and played Footbal during 12 years</li>
+						<li>Reading - Jury of the "Prix Polar Jeunesse" while 4 editions</li>
+						<li>Video Games - One in preparation for with a friend</i>
+					</ul>
+				</div>
+			</div>
+			<!-- Bas de page -->
+			<div class="modal-footer">
+		        <p class="muted credit">Realised by Bec Gwena&euml;l with <a href="http://getbootstrap.com/">Bootstrap Twitter</a> - @Copyright 2014</p>
+	    	</div>
 		</div>
-
-		<div id="Qui" class="contenuPage">
-			<!-- Parcours scolaires-->
-			<div class="contenu">
-				<h1> Education </h1>
-				<div class="school">
-					<img class="pull-right img-school" src="../images/EMN.png"> 
-
-					<p><a class="schoolName" href="http://www.mines-nantes.fr/" target="_blank">&Eacute;cole des Mines de Nantes <i> - Engineering School </i></a></p>
-					<p> <b> Presentation : </b> The "&Eacute;cole des Mines de Nantes" is a great school of the Institute "Mines-T&eacute;l&eacute;com" engineers to form general trend of high level. The Ecole des Mines de Nantes has four characteristics that define: general training, a strong orientation towards business, international openness and marked use of innovative teaching methods</p>
-					<p> <b> Course : </b> Training I'm following in this school is an apprenticeship (<i> 50% of time at school and 50% in business </ i>). This training is specialized in software engineering and management. Specifically we learn to use new technologies (JEE, Scala, Play! ...) while having a good background in management <</p>
-					<p> <b> Result : Training in progress</b> </p>
-					<p class="schoolBorder"/>
-				</div>	
-
-				<div class="school">
-					<img class="pull-right img-school" src="../images/IUT.png"> 
-
-					<p><a class="schoolName" href="http://www.iut-larochelle.fr/" target="_blank">IUT de La Rochelle - <i> HND </i></a></p>
-					<p> <b> Presentation : </b> The IT department of the IUT of La Rochelle was created in 1982. In 1989, during the implementation of school options, the IT department of La Rochelle had a leading role in the creation of content special subject Industrial Systems and Computer Engineering. </p>
-					<p> <b> Course : </b> I followed the course "IT" from the IUT. This training is a fairly technical (<i> the aim of being able to work in business at the end of it </i>) and I chose the second year the special subject "software engineering". This subject is more for people who want to continue their studies in engineering school.</p>
-					<p> <b> Result : DUT in IT subjet Software Engineering <i> - Equivalent to HND </i></b> </p>
-					<p class="schoolBorder"/>
-				</div>	
-
-				<div class="school">
-					<p><a class="schoolName" href="http://www.lyceejeanmonnet-cognac.fr/" target="_blank">Lyc&eacute;e Jan Monnet de Cognac <i> - High School </i></a></p>
-					<p> <b> Presentation : High school of Cognac</b> </p>
-					<p> <b> Course : I've done a Bac S-SVT avec with Option Physique</b> </p>
-					<p> <b> Result : BAC S-SVT Subject Physics with Honors <i> equivalent to A-level </i></b> </p>
-				</div>	
-			</div>
-
-
-			<!-- Hobbies -->
-			<div class="contenu hobbies">
-				<h1> Hobbies </h1>
-				<ul>
-					<li>TV Shows addict</li>
-					<li>Sport  - Practised Aikido while 11years and played Footbal during 12 years</li>
-					<li>Reading - Jury of the "Prix Polar Jeunesse" while 4 editions</li>
-					<li>Video Games - One in preparation for with a friend</i>
-				</ul>
-			</div>
-		</div>
-
 	</div>
 
 	<script src="http://code.jquery.com/jquery.js"></script>

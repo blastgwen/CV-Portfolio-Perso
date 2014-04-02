@@ -3,6 +3,22 @@
 	margin: auto;
 }
 
+.navbar-fixed-top {
+	max-width: 1000px;
+	right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page {
+	padding-top: 40px;
+}
+
+.language-icon a{
+	text-decoration: none;
+}
+
 #photoPerso {
 	padding-left: 50px;
 }
@@ -22,10 +38,10 @@
 }
 
 .homepage h1 a:hover{
-	color: darkcyan;
+	color: #284DE1;
 }
 
-.homepage h1 {
+#infoPerso h1 {
 	text-align: center;
 }
 
@@ -49,11 +65,12 @@
 
 .contenu h1,
 .contenuCV h1{
-	background: darkcyan;
+	background: royalblue;
 	color: #333333;
 	width: 100%;
 	text-align: center;
 	margin: 0;
+	padding: 4 0 4 0;
 }
 
 
@@ -76,7 +93,7 @@
 }
 
 .schoolBorder {
-	border-bottom:solid 2px darkcyan;
+	border-bottom:solid 2px royalblue;
 	text-align: center;
 	margin-bottom: -10px;
 	width: 80%;
@@ -97,26 +114,112 @@
 	background: #CCCCCC;
 }
 
-.span4 .contenuCV h1{
+.span3 .CVFixe h1{
 	font-size: 23px;
+	margin-bottom: 10px;
 }
 
-
-.CVFixe p{
-	padding-right: 10;
+.CVFixe a {
+	color: #0A2FC6;
 }
 
-.contenuPage .span4 {
-	padding-right: 10px;
+.CVFixe a p{
+	padding : 0 0 10 20;
+}
+
+.CVFixe ul{
+	padding: 0 5 10 0;
+}
+
+.contenuPage .span3 {
+	padding-right: 15px;
 	padding-left: 5px;
 	margin-left: -5px;
 }
 
 .contenuPage .span8 {
 	margin-right: 15px;
+	padding-right: 10px;
 }
 
 #expPro {
-	margin-left: 10;
+	margin-left: 16;
+	padding-bottom: 15px
 }
 
+#expPro h1 {
+	font-size: 34px;
+}
+
+.experience{
+	padding-left: 20px;
+}
+
+.experience h2 {
+	font-size: 26px;
+}
+
+.affix {
+	width: inherit;
+}
+
+h3 .CV-date {
+	font-size: 12px;
+	color: #666;
+	border-right: solid 1px #666;
+}
+
+h2 .CV-date {
+	font-size: 16px;
+	color: #444;
+}
+
+.mission-title {
+	font-size: 20px;
+}
+
+.panel-title a:active,
+.panel-title a:visited,
+.panel-title a:link {
+	color: #333333;
+	text-decoration:none
+}
+
+.panel-title a:hover {
+	color: #284DE1;
+	text-decoration:none;
+}
+
+.panel-title h3 {
+	border: solid 1px #777;
+	padding-left: 5px;
+}
+
+.panel-collapse {
+	border-left: solid 1px #777;
+	border-right: solid 1px #777;
+	padding-left: 5px;
+}
+
+.in {
+	border-bottom: solid 1px #777;
+}
+
+.CVBorder {
+	border-bottom:solid 2px royalblue;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 10px;
+}
+
+.Techno {
+	padding-left: 40px;
+	padding-right: 10px;
+}
+
+.Mission {
+	padding-left: 30px;
+	padding-right: 10px;
+}

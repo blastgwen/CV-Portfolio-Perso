@@ -4541,7 +4541,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: static;
+  position: fixed;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -6124,7 +6124,7 @@ a.badge:focus {
   font-weight: 200;
   line-height: 30px;
   color: inherit;
-  background-color: darkcyan
+  background-color: cornflowerblue
 }
 
 .hero-unit h1 {
