@@ -23,6 +23,10 @@
 	padding-left: 50px;
 }
 
+#infoSite h1{
+	text-align: center;
+}
+
 .homepage {
 	background: #CCCCCC;
 }
@@ -114,7 +118,7 @@
 	background: #CCCCCC;
 }
 
-.span3 .CVFixe h1{
+.span4 .CVFixe h1{
 	font-size: 23px;
 	margin-bottom: 10px;
 }
@@ -131,10 +135,10 @@
 	padding: 0 5 10 0;
 }
 
-.contenuPage .span3 {
-	padding-right: 15px;
-	padding-left: 5px;
-	margin-left: -5px;
+.contenuPage .span4 {
+	margin-left: -10px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .contenuPage .span8 {
@@ -157,10 +161,6 @@
 
 .experience h2 {
 	font-size: 26px;
-}
-
-.affix {
-	width: inherit;
 }
 
 h3 .CV-date {
@@ -199,10 +199,6 @@ h2 .CV-date {
 	border-left: solid 1px #777;
 	border-right: solid 1px #777;
 	padding-left: 5px;
-}
-
-.in {
-	border-bottom: solid 1px #777;
 }
 
 .CVBorder {
