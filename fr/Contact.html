@@ -1,0 +1,76 @@
+<html>
+<head>
+	<title>Mes projets - Gwena&euml;l Bec</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/mine.css">
+</head>
+<body>
+	<div class="contain">
+
+		<!-- Menu principal -->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="navbar-inner">
+		    <div class="container">
+		      <a class="brand" href="./index.html">Bec Gwena&euml;l</a>
+		      <div class="nav-collapse collapse">
+		        <ul class="nav">
+		          <li><a href="./Qui-suis-je.html">Qui suis-je ?</a></li>
+		          <li><a href="./CV.html">CV</a></li>
+		          <li class="active"><a href="./Projets.html">Projets</a></li>
+		          <li><a href="./Contact.html">Contact</a></li>
+		        </ul>
+		        <span class="pull-right language-icon" style="padding-top:9">
+		        	<a href="../en/Projects.html" style="padding-right:20">
+		        		<img src="../images/drapeau_uk_mini.png">
+		        	</a>
+		        	<a href="../fr/Projets.html">
+		        		<img src="../images/drapeau_france_mini.png">
+		        	</a>
+		        </span>
+		      </div><!--/.nav-collapse -->
+		    </div>
+		  </div>
+		</div>
+
+		<div class="Page">
+			<!-- Presentation -->
+			<div id="infoPerso" class="hero-unit">
+				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
+				<div>
+					<h1> Gwena&euml;l Bec </h1>
+					<p> Je suis un &eacute;tudiant en ing&eacute;nieurie logicielle de l'&Eacute;cole des Mines de Nantes, jeune passion&eacute; par les nouvelles technologies et le sport en g&eacute;n&eacute;ral. </p>
+				</div>
+			</div>
+
+			<!--Mes Projets -->
+			<div class="contenuPage row-fluid">
+				<!-- Projets personnels -->
+				<div class="contenu">
+					<h1>Contact</h1>
+					<p>Me suivre sur Twitter</p>
+					<p> Voir mon compte Github</p>
+					<p>Me contacter par mail</p>
+					<FORM method=POST action="../scripts/sendMail.php"> 
+						<input type=hidden name="language" value="fr" /> 
+						<INPUT NAME="name" TYPE="text" SIZE="40"placeholder="Votre nom" required> <BR> 
+						<INPUT NAME="email" TYPE="email" SIZE="40" placeholder="Votre adresse mail" required><BR> 
+						<BR> 
+						<TEXTAREA NAME="comments" COLS="30" ROWS="10" placeholder="Entrez ici votre message" required></TEXTAREA> 
+						<BR><BR> 
+						<INPUT TYPE="SUBMIT" VALUE="Envoyer"> 
+					</FORM> 
+				</div>
+			</div>
+			<!-- Bas de page -->
+			<div class="modal-footer">
+		        <p class="muted credit">R&eacute;alis&eacute; par Bec Gwena&euml;l avec <a href="http://getbootstrap.com/">Bootstrap Twitter</a> - @Copyright 2014</p>
+	    	</div>
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
