@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Mes projets - Gwena&euml;l Bec</title>
+	<title>Contact - Gwena&euml;l Bec</title>
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-responsive.css">
 	<link rel="stylesheet" type="text/css" href="../css/mine.css">
@@ -17,14 +17,14 @@
 		        <ul class="nav">
 		          <li><a href="./Qui-suis-je.html">Qui suis-je ?</a></li>
 		          <li><a href="./CV.html">CV</a></li>
-		          <li class="active"><a href="./Projets.html">Projets</a></li>
-		          <li><a href="./Contact.html">Contact</a></li>
+		          <li><a href="./Projets.html">Projets</a></li>
+		          <li class="active"><a href="./Contact.html">Contact</a></li>
 		        </ul>
 		        <span class="pull-right language-icon" style="padding-top:9">
-		        	<a href="../en/Projects.html" style="padding-right:20">
+		        	<a href="../en/Contact.html" style="padding-right:20">
 		        		<img src="../images/drapeau_uk_mini.png">
 		        	</a>
-		        	<a href="../fr/Projets.html">
+		        	<a href="../fr/Contact.html">
 		        		<img src="../images/drapeau_france_mini.png">
 		        	</a>
 		        </span>
@@ -43,23 +43,53 @@
 				</div>
 			</div>
 
-			<!--Mes Projets -->
+			<!--Mon contact -->
 			<div class="contenuPage row-fluid">
-				<!-- Projets personnels -->
-				<div class="contenu">
+				<!-- Page Internet -->
+				<div class="contenu" style="height: 470px;">
 					<h1>Contact</h1>
-					<p>Me suivre sur Twitter</p>
-					<p> Voir mon compte Github</p>
-					<p>Me contacter par mail</p>
-					<FORM method=POST action="../scripts/sendMail.php"> 
-						<input type=hidden name="language" value="fr" /> 
-						<INPUT NAME="name" TYPE="text" SIZE="40"placeholder="Votre nom" required> <BR> 
-						<INPUT NAME="email" TYPE="email" SIZE="40" placeholder="Votre adresse mail" required><BR> 
-						<BR> 
-						<TEXTAREA NAME="comments" COLS="30" ROWS="10" placeholder="Entrez ici votre message" required></TEXTAREA> 
-						<BR><BR> 
-						<INPUT TYPE="SUBMIT" VALUE="Envoyer"> 
-					</FORM> 
+					<div class="contacts">
+						<div>
+						<div class="span6">
+							<div class="contact">
+								<a href="https://www.twitter.com/blastgwen" target="_blank"> 
+									<div class="span4 img-contact">
+										<img src="../images/twitter.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Me suivre sur Twitter</p>
+								</a>
+							</div>
+							<div class="contact">
+								<a href="https://www.github.com/blastgwen"  target="_blank"> 
+									<div class="span4 img-contact">
+										<img class="pull-left img-circle" src="../images/github.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Voir mes projets Github</p>
+								</a>
+							</div>
+							<div class="contact">
+								<a href="http://fr.linkedin.com/pub/gwenaël-bec/40/ba5/563/"  target="_blank"> 
+									<div class="span4 img-contact">
+										<img class="pull-left img-circle" src="../images/linkedin.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Voir mon profil LinkedIn</p>
+								</a>
+							</div>
+						</div>
+						<div class="span6">
+							<p>Et le plus simple moyen est encore de m'envoyer un mail et je vous re contacterai</p>
+							<form method=POST action="../scripts/sendMail.php"> 
+								<input type=hidden name="language" value="fr" /> 
+								<input NAME="name" TYPE="text" SIZE="40"placeholder="Votre nom" required/> <br /> 
+								<input NAME="email" TYPE="email" SIZE="40" placeholder="Votre adresse mail" required/><br /> 
+								<br /> 
+								<textarea NAME="comments" COLS="30" ROWS="10" placeholder="Entrez ici votre message" required></textarea>
+								<br /><br /> 
+								<input TYPE="SUBMIT" VALUE="Envoyer"/> 
+							</form> 
+						</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<!-- Bas de page -->

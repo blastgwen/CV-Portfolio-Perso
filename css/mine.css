@@ -228,3 +228,20 @@ h2 .CV-date {
 .projet .panel-body p{
 	padding: 0 10 0 20;
 }
+
+/*
+ CONTACT
+ */
+
+ .contact {
+ 	margin-top: 10px;
+ 	height: 100px;
+ }
+
+.img-contact {
+	padding-left: 50px;
+}
+
+ .contact p {
+ 	padding-top: 30px
+ }
