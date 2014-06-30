@@ -4,7 +4,7 @@ $TO = "gwenael.bec" . "@" . $gmail;
 $subject = "Contact - SiteWeb"; 
 $h = "From: " . "blastgwen" . "@" . $gmail; 
 $location ="../index.htm";
-$message = "Un e-mail vient de t'être envoyé par le formulaire contact du site"; 
+$message = "Un e-mail vient de t'être envoyé par le formulaire contact du site. \n"; 
 while (list($key, $val) = each($_POST)) { 	
 	if ($key == "language"){
 		if ($val == "fr"){
