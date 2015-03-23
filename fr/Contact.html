@@ -1,0 +1,118 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Présentaion CV Gwenaël Bec">
+	<meta name="keywords" content="Bec, Gwenaël, CV, Développeur, Ecole des Mines de Nantes">
+	<meta name="author" content="Gwenaël Bec">
+	<title>Contact - Gwena&euml;l Bec</title>
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="../css/mine.css">
+</head>
+<body>
+	<div class="contain">
+
+		<!-- Menu principal -->
+		<div class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="navbar-inner">
+		    <div class="container">
+		      <a class="brand" href="./index.html">Bec Gwena&euml;l</a>
+		      <div class="nav-collapse collapse">
+		        <ul class="nav">
+		          <li><a href="./Qui-suis-je.html">Qui suis-je ?</a></li>
+		          <li><a href="./CV.html">CV</a></li>
+		          <li><a href="./Projets.html">Projets</a></li>
+		          <li class="active"><a href="./Contact.html">Contact</a></li>
+		        </ul>
+		        <span class="pull-right language-icon" style="padding-top:9">
+		        	<a href="../en/Contact.html" style="padding-right:20">
+		        		<img src="../images/drapeau_uk_mini.png">
+		        	</a>
+		        	<a href="../fr/Contact.html">
+		        		<img src="../images/drapeau_france_mini.png">
+		        	</a>
+		        </span>
+		      </div><!--/.nav-collapse -->
+		    </div>
+		  </div>
+		</div>
+
+		<div class="Page">
+			<!-- Presentation -->
+			<div id="infoPerso" class="hero-unit">
+				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
+				<div>
+					<h1> Gwena&euml;l Bec </h1>
+					<p> Je suis un &eacute;tudiant en ing&eacute;nieurie logicielle de l'&Eacute;cole des Mines de Nantes, jeune passion&eacute; par les nouvelles technologies et le sport en g&eacute;n&eacute;ral. </p>
+				</div>
+			</div>
+
+			<!--Mon contact -->
+			<div class="contenuPage row-fluid">
+				<!-- Page Internet -->
+				<div class="contenu" style="height: 440px;">
+					<h1>Contact</h1>
+					<div class="contacts">
+						<div>
+						<div class="span6" id="contact-social">
+							<div class="contact">
+								<a href="https://www.twitter.com/blastgwen" target="_blank"> 
+									<div class="span4 img-contact">
+										<img src="../images/twitter.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Me suivre sur Twitter</p>
+								</a>
+							</div>
+							<div class="contact">
+								<a href="https://www.github.com/blastgwen"  target="_blank"> 
+									<div class="span4 img-contact">
+										<img class="pull-left img-circle" src="../images/github.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Voir mes projets Github</p>
+								</a>
+							</div>
+							<div class="contact">
+								<a href="http://fr.linkedin.com/pub/gwenaël-bec/40/ba5/563/"  target="_blank"> 
+									<div class="span4 img-contact">
+										<img class="pull-left img-circle" src="../images/linkedin.png" style="height: 80px;width: 80px"/>
+									</div>
+									<p class="span6">- Voir mon profil LinkedIn</p>
+								</a>
+							</div>
+						</div>
+						<div id="contact-form" class="span6">
+							<p>Ou encore, vous pouvez me contacter par mail.</p>
+							<br/>
+							<form method=POST action="../scripts/sendMail.php"> 
+								<input type=hidden name="language" value="fr" /> 
+								<input NAME="name" TYPE="text" placeholder="Votre nom" required/> <br /> <br /> 
+								<input NAME="email" TYPE="email" placeholder="Votre adresse mail" required/><br /> <br /> 
+								<textarea NAME="comments" placeholder="Entrez ici votre message" required></textarea>
+								<br /><br /> 
+								<center><input TYPE="SUBMIT" class="btn btn-primary"VALUE="Envoyer" style="width:100px;"/><center>
+							</form> 
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Bas de page -->
+			<div class="modal-footer">
+		        <p class="muted credit">R&eacute;alis&eacute; par Bec Gwena&euml;l avec <a href="http://getbootstrap.com/">Bootstrap Twitter</a> - @Copyright 2014</p>
+	    	</div>
+		</div>
+	</div>
+
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../css/bootstrap/js/bootstrap.min.js"></script>
+	<script>
+
+		var send = location.search.split('send=')[1] ? location.search.split('send=')[1] : 'false';
+		if (send == 'true'){
+			alert("Message envoy&eacute; avec succ&egrave;s !");
+		}
+	</script>
+
+</body>
+</html>
