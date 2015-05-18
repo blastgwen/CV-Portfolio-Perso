@@ -40,7 +40,7 @@
 		<div class="Page">
 			<!-- Presentation -->
 			<div id="infoPerso" class="hero-unit">
-				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
+				<img class="pull-left ovale" src="../images/photo.png" style="height: 150px;width: 110px;margin-left:35px;margin-right:50px;margin-top:-10px">  
 				<div>
 					<h1> Gwena&euml;l Bec </h1>
 					<p> I am a student in Software Engineering of the Ecole des Mines de Nantes (a highly selective school), young passionate about new technologies and sports in general.</p>
@@ -48,54 +48,28 @@
 			</div>
 
 			<!--Mon contact -->
-			<div class="contenuPage row-fluid">
-				<!-- Page Internet -->
-				<div class="contenu" style="height: 440px;">
-					<h1>Contact</h1>
-					<div class="contacts">
-						<div>
-						<div class="span6" id="contact-social">
-							<div class="contact">
-								<a href="https://www.twitter.com/blastgwen" target="_blank"> 
-									<div class="span4 img-contact">
-										<img src="../images/twitter.png" style="height: 80px;width: 80px"/>
-									</div>
-									<p class="span6">- Follow me on Twitter</p>
-								</a>
-							</div>
-							<div class="contact">
-								<a href="https://www.github.com/blastgwen"  target="_blank"> 
-									<div class="span4 img-contact">
-										<img class="pull-left img-circle" src="../images/github.png" style="height: 80px;width: 80px"/>
-									</div>
-									<p class="span6">- Watch my Github account</p>
-								</a>
-							</div>
-							<div class="contact">
-								<a href="http://fr.linkedin.com/pub/gwenaël-bec/40/ba5/563/"  target="_blank"> 
-									<div class="span4 img-contact">
-										<img class="pull-left img-circle" src="../images/linkedin.png" style="height: 80px;width: 80px"/>
-									</div>
-									<p class="span6">- See my profile on LinkedIn</p>
-								</a>
-							</div>
-						</div>
-						<div id="contact-form" class="span6">
-							<p>Or you can contact be my e-mail.</p>
-							<br/>
-							<form method=POST action="../scripts/sendMail.php"> 
-								<input type=hidden name="language" value="fr" /> 
-								<input NAME="name" TYPE="text" placeholder="Your surname" required/> <br /> <br /> 
-								<input NAME="email" TYPE="email" placeholder="Your mail address" required/><br /> <br /> 
-								<textarea NAME="comments" placeholder="Enter your message here" required></textarea>
-								<br /><br /> 
-								<center><input TYPE="SUBMIT" class="btn btn-primary"VALUE="Send" style="width:100px;"/><center>
-							</form> 
-						</div>
-						</div>
-					</div>
+			<div class="contenuPage row-fluid" style="padding: 20 0 20 0;">
+				<div class="contenuContact span4" style="margin-left:13; padding:0">
+					<h1> Twitter </h1>
+					<div><a class="contact" href="https://www.twitter.com/blastgwen" target="_blank"> 
+						<img class="img-circle" src="../images/twitter.png" style="height: 100px;width: 100px"/>
+					</a></div>
+				</div>
+
+				<div class="contenuContact span4" style="margin-left:13; padding:0">
+					<h1> LinkedIn </h1>
+					<div><a class="contact" href="http://fr.linkedin.com/pub/gwenaël-bec/40/ba5/563/" target="_blank"> 
+						<img class="img-circle" src="../images/linkedin.png" style="height: 100px;width: 100px"/>
+					</a></div>
+				</div>
+				<div class="contenuContact span4" style="margin-left:13; padding:0">
+					<h1> Github </h1>
+					<div><a class="contact" href="https://www.github.com/blastgwen" target="_blank">
+						<img class="img-circle" src="../images/github.png" style="height: 100px;width: 100px"/>
+					</a></div>
 				</div>
 			</div>
+
 			<!-- Bas de page -->
 			<div class="modal-footer">
 		        <p class="muted credit">Realised by Bec Gwena&euml;l with <a href="http://getbootstrap.com/">Bootstrap Twitter</a> - @Copyright 2014</p>
@@ -103,14 +77,7 @@
 		</div>
 	</div>
 
-
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../scripts/jquery.min.js"></script>
 	<script src="../css/bootstrap/js/bootstrap.min.js"></script>
-	<script>
-		var send = location.search.split('send=')[1] ? location.search.split('send=')[1] : 'false';
-		if (send == 'true'){
-			alert("Success, message sent !");
-		}
-	</script>
 </body>
 </html>

@@ -40,8 +40,8 @@
 		<div class="homepage page">
 			
 			<div id="infoPerso" class="hero-unit">
-				<img class="pull-left" src="../images/photo.png" style="height: 120px;width: 95px;padding-left:40;padding-right:50px"> 
-
+				<img class="pull-left ovale" src="../images/photo.png" style="height: 150px;width: 110px;margin-left:35px;margin-right:50px;margin-top:-10px"> 
+				
 				<div>
 					<h1> Gwena&euml;l Bec </h1>
 					<p> I am a student in Software Engineering of the Ecole des Mines de Nantes (a highly selective school), young passionate about new technologies and sports in general.</p>
@@ -64,7 +64,7 @@
 			</div>
 
 			<div id="frame">
-				<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Aorm4F3Z4MN6dDRJeV9lMlBTU3ZqSVYxX1RPVi0wSnc&font=Bevan-PotanoSans&maptype=toner&lang=en&start_at_slide=4&height=400' width='100%' height='400' frameborder='0'></iframe>
+				<!--<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0Aorm4F3Z4MN6dDRJeV9lMlBTU3ZqSVYxX1RPVi0wSnc&font=Bevan-PotanoSans&maptype=toner&lang=en&start_at_slide=4&height=400' width='100%' height='400' frameborder='0'></iframe>-->
 			</div>
 
 		<!-- Bas de page -->
@@ -73,7 +73,26 @@
     	</div>
 	</div>
 	
-	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="../scripts/jquery.min.js"></script>
 	<script src="../css/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../data/en/timeline-data-en.js"></script>
+	<script type="text/javascript" src="../scripts/storyjs-embed.js"></script>
+    <script type="text/javascript">
+			$(document).ready(function() {
+				createStoryJS({
+					type:		'timeline',
+					width:		'100%',
+					height:		'400',
+					source:		'rien',
+					embed_id:	'frame',
+					start_at_slide: '4',
+					lang: 		'en', 
+					js: 		'../scripts/timeline.js',
+					maptype:    'watercolor', 
+            		css: 		'../css/timeline.css',
+            		font: 		'Bevan-PotanoSans'     
+				});
+			});
+    </script>
 </body>
 </html>
