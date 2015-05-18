@@ -4,16 +4,16 @@ var projects = [
 		"type" : "perso",
 		"title" : "Flototo - Mobile Banking Factory 2",
 		"date" : "March 2015 - May 2015", 
-		"description" : "With classmates, I participate at the <a href='http://mobilebankingfactory2.bemyapp.com/' >Mobile Banking Factory 2</a> contest. (theme : budget management around transport). Le but de ce challange est d'intégrer une ou plusieurs API partenaire dans une application innovante. <br />Nous avons décidé de créer une application de gestion de flotte automobile pour entreprise en utilsant principalement l'API fournis par Xee.",
+		"description" : "With classmates, I participate at the <a href='http://mobilebankingfactory2.bemyapp.com/' >Mobile Banking Factory 2</a> contest. (theme : budget management around transport). The goal of this challenge is to integrate one or more partnersAPI in an innovative application. <br /> We decided to create a fleet management application for business using the API provided by Xee.",
 		"taches" : [ 
 			{ 
-				"description" : "Macketage des l'applicationn mobile" 
+				"description" : "Designing the application" 
 			}, 
 			{ 
-				"description" : "Intégration d'API rest" 
+				"description" : "Integration of REST API" 
 			}, 
 			{ 
-				"description" : "Desgin et Création de l'application" 
+				"description" : "Developing the application using Cordova and Ionic" 
 			}
 		],
 		"technologies" : "Cordova, AngularJS, Ionic, JavaScript"
