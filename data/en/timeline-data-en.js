@@ -35,7 +35,7 @@ var muche =
                 "endDate":"2015,9",
                 "tag":"School",
                 "headline":"École des Mines de Nantes - Master degree",
-                "text":"Currently studying for a Master’s degree in computer science (50% work, / 50% school) in partnership with ITII"
+                "text":"Currently studying for a Master’s degree in computer science (50% work / 50% school) in partnership with ITII"
             },
 			{
                 "startDate":"2012,10",

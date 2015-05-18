@@ -10,10 +10,10 @@ var jobs = [
 				"id" : "PFE", 
 				"name" : "PFE - Automatisation from dev to prod", 
 				"date" : "March 2015 - September 2015", 
-				"description" : "In my apprenticeship, I have to do a final school project. This project has to have an engineer level and need to be developed in several area (scientific, technical, economic, organizational and human). To respond at this criteria, I chose to do a project around two issues : Modularity and environment configuration / management.", 
+				"description" : "In my apprenticeship, I have to realise a final school project. This project has to have an engineer level and need to be developed in several area (scientific, technical, economic, organizational and human). To respond at this criteria, I chose to do a project around two issues : modularity and environment configuration / management.", 
 				"taches" : [ 
 					{ 
-						"description" : "Managing a planning and monitoring taskss" 
+						"description" : "Managing a planning and monitoring tasks" 
 					}, 
 					{ 
 						"description" : "Creating a method for calculating a ROI and studying the impact on the technical and client teams" 
@@ -34,7 +34,7 @@ var jobs = [
 				"id" : "CNAM", 
 				"name" : "Developer for the CNAM", 
 				"date" : "Mars 2014 - Janvier 2015", 
-				"description" : "Sopra has many contracts with the CNAM (Caisse Nationale d'Assurance Maladie), I am part of the team project Hippocrate. Hippocrate is a software that enables professionals of CNAM to monitor patients.", 
+				"description" : "Sopra owns many contracts with the CNAM (Caisse Nationale d'Assurance Maladie), I am part of the team project Hippocrate. Hippocrate is a software that enables professionals of CNAM to monitor patients.", 
 				"taches" : [ 
 					{ 
 						"description" : "Application migration on VB6 to VB.Net" 
@@ -97,10 +97,10 @@ var jobs = [
 				"id" : "dashboard", 
 				"name" : "Designing a dashboard", 
 				"date" : "Summer 2014", 
-				"description" : "To understand their customers, TrueView collected some informations in their application. To see these statistics, they needed a dashboard.", 
+				"description" : "To understand their customers, TrueView collected some information in their application. To see these statistics, they need a dashboard.", 
 				"taches" : [ 
 					{ 
-						"description" : "Desgining and developing the dasboard" 
+						"description" : "Desgining and developing the dashboard" 
 					}, 
 					{ 
 						"description" : "Creating some new features and new statistics" 

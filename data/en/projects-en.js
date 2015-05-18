@@ -32,7 +32,7 @@ var projects = [
 		"type" : "perso",
 		"title" : "Portfolio website",
 		"date" : "Spring 2015",
-		"description" : "This web site is one of my projects that I wanted to do even as student. Besides having a personal \"showcase\" and a personal CV, it allowed me to confirm my JavaScript skills, acquire skills in the configuration of dedicated server or to confirm knowledge in tools such as Bootstrap",
+		"description" : "This web site is one of my projects that I wanted to do as student. Besides having a personal \"showcase\" and a personal CV, it allowed me to confirm my JavaScript skills, acquire skills in the configuration of dedicated server or to confirm knowledge in tools such as Bootstrap",
 		"taches" : "",
 		"technologies" : "JavaScript, CSS, Bootstrap, Debian 9, Serveur DNS, Serveur Apache"
 	},
@@ -63,7 +63,7 @@ var projects = [
 		"type" : "ecole",
 		"title" : "Telosys Tools Plug-In Eclipse",
 		"date" : "Java",
-		"description" : "As part of a project training with a partner company (Sogeti), we have developed a TextEditor plug-in for Eclipse alolwing the creation of files for the tool Telosys Tools. We also create a parser for this type of file to interpret",
+		"description" : "As part of a project training with a partner company (Sogeti), we have developed a TextEditor plug-in for Eclipse allowing the creation of files for the tool Telosys Tools. We also create a parser for this type of file to interpret",
 		"taches" : [ 
 			{ 
 				"description" : "Creating an eclipse plugin with syntax highlighting and autocompletion as the context" 
@@ -79,7 +79,7 @@ var projects = [
 		"type" : "ecole",
 		"title" : "Super Mario Sextant bros",
 		"date" : "C++",
-		"description" : "In order to know more about the operation and management systems, we have written drivers for keyboard and to test them we have set up a mini-game based on Mario Bros",
+		"description" : "In order to know more about the operation and management systems, we have written drivers for keyboard, and to test them, we have set up a mini-game based on Mario Bros",
 		"taches" : "",
 		"technologies" : "C++"
 	}

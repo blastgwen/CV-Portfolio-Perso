@@ -4,7 +4,7 @@ var projects = [
 		"type" : "perso",
 		"title" : "Flototo - Mobile Banking Factory 2",
 		"date" : "Mars 2015 - Mai 2015", 
-		"description" : "Avec des camarades de classe, nous participons au concours <a href='http://mobilebankingfactory2.bemyapp.com/' >Mobile Banking Factory 2</a> (thème : gestion du budget autour des transports). Le but de ce challange est d'intégrer une ou plusieurs API partenaire dans une application innovante. <br />Nous avons décidé de créer une application de gestion de flotte automobile pour entreprise en utilsant principalement l'API fournis par Xee.",
+		"description" : "Avec des camarades de classe, nous participons au concours <a href='http://mobilebankingfactory2.bemyapp.com/' >Mobile Banking Factory 2</a> (thème : gestion du budget autour des transports). Le but de ce challange est d'intégrer une ou plusieurs API partenaires dans une application innovante. <br />Nous avons décidé de créer une application de gestion de flotte automobile pour les entreprises en utilsant principalement l'API fourni par Xee.",
 		"taches" : [ 
 			{ 
 				"description" : "Macketage des l'applicationn mobile" 
